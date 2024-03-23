@@ -1,0 +1,21 @@
+import os
+import socket
+
+# Define the network interface to spoof
+interface_name = "eth0"
+
+# Define the new MAC address to use
+new_mac_address = "00:11:22:33:44:55"
+
+# Get the current MAC address of the interface
+current_mac_address = socket.socket(socket.AF_INET, socket.SOCK_DGRAM).getsockname()[1]
+
+# Check if the new MAC address is different from the current MAC address
+if new_mac_address != current_mac_address:
+    # Change the MAC address of the interface
+    os.system(f"ifconfig {interface_name} down")
+    os.system(f"ifconfig {interface_name} hw ether {new_mac_address}")
+    os.system(f"ifconfig {interface_name} up")
+    print("MAC address spoofing successful!")
+else:
+    print("MAC address already set to the desired value.")
