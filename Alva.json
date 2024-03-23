@@ -1,0 +1,12 @@
+import json
+
+# Define the data to be written
+data = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+
+# Open the file in write mode
+with open('data.json', 'w') as outfile:
+    json.dump(data, outfile)
