@@ -1,0 +1,12 @@
+import RPi.GPIO as GPIO
+import time
+
+# Set up the GPIO pins
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(18, GPIO.IN)  # Set up the light sensor pin as an input
+
+# Read the light sensor value
+while True:
+    light_sensor_value = GPIO.input(18)
+    print("Light sensor value:", light_sensor_value)
+    time.sleep(1)  # Wait for 1 second before reading again
