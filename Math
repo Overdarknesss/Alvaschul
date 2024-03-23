@@ -1,0 +1,21 @@
+def solve_math_problem(num1, num2, operation):
+    if operation == 'add':
+        return num1 + num2
+    elif operation == 'subtract':
+        return num1 - num2
+    elif operation == 'multiply':
+        return num1 * num2
+    elif operation == 'divide':
+        return num1 / num2
+    elif operation == 'exponent':
+        return num1 ** num2
+    elif operation == 'modulus':
+        return num1 % num2
+    elif operation == 'square_root':
+        return num1 ** 0.5
+    else:
+        return "Invalid operation"
+
+# Example usage
+result = solve_math_problem(4, 2, 'add')
+print(result)  # Output: 6
