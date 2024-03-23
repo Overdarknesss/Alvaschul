@@ -1,0 +1,150 @@
+import os
+import re
+import socket
+import struct
+
+# Define the WiFi network to test
+network_ssid = "NetworkName"
+network_bssid = "BSSID"
+
+# Define the WiFi channel to test
+channel = 1
+
+# Define the WiFi mode to test
+mode = 1
+
+# Define the WiFi encryption type to test
+encryption = 1
+
+# Define the WiFi authentication type to test
+authentication = 1
+
+# Define the WiFi MAC address to use for the test
+attacker_mac = "00:11:22:33:44:55"
+
+# Define the WiFi access point IP address to test
+ap_ip = "192.168.1.1"
+
+# Define the WiFi access point port to test
+ap_port = 80
+
+# Define the WiFi access point username and password
+ap_username = "admin"
+ap_password = "password"
+
+# Define the WiFi access point firmware version
+ap_firmware = "1.0.0"
+
+# Define the WiFi access point vulnerabilities
+ap_vulnerabilities = ["CVE-2019-18417", "CVE-2019-18418", "CVE-2019-18419"]
+
+# Define the WiFi access point exploit scripts
+ap_exploit_scripts = ["exploit1.py", "exploit2.py", "exploit3.py"]
+
+# Define the WiFi access point exploit success rate
+ap_exploit_success_rate = 0.5
+
+# Define the WiFi access point exploit timeout
+ap_exploit_timeout = 30
+
+# Define the WiFi access point exploit payload
+ap_exploit_payload = "payload"
+
+# Define the WiFi access point exploit method
+ap_exploit_method = "GET"
+
+# Define the WiFi access point exploit headers
+ap_exploit_headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"}
+
+# Define the WiFi access point exploit body
+ap_exploit_body = "body"
+
+# Define the WiFi access point exploit response
+ap_exploit_response = "response"
+
+# Define the WiFi access point exploit success message
+ap_exploit_success_message = "Exploit successful!"
+
+# Define the WiFi access point exploit failure message
+ap_exploit_failure_message = "Exploit failed."
+
+# Define the WiFi access point exploit success rate threshold
+ap_exploit_success_rate_threshold = 0.7
+
+# Define the WiFi access point exploit timeout threshold
+ap_exploit_timeout_threshold = 10
+
+# Define the WiFi access point exploit payload threshold
+ap_exploit_payload_threshold = 100
+
+# Define the WiFi access point exploit method threshold
+ap_exploit_method_threshold = 5
+
+# Define the WiFi access point exploit headers threshold
+ap_exploit_headers_threshold = 5
+
+# Define the WiFi access point exploit body threshold
+ap_exploit_body_threshold = 5
+
+# Define the WiFi access point exploit response threshold
+ap_exploit_response_threshold = 5
+
+# Define the WiFi access point exploit success message threshold
+ap_exploit_success_message_threshold = 5
+
+# Define the WiFi access point exploit failure message threshold
+ap_exploit_failure_message_threshold = 5
+
+# Define the WiFi access point exploit success rate threshold
+ap_exploit_success_rate_threshold = 0.7
+
+# Define the WiFi access point exploit timeout threshold
+ap_exploit_timeout_threshold = 10
+
+# Define the WiFi access point exploit payload threshold
+ap_exploit_payload_threshold = 100
+
+# Define the WiFi access point exploit method threshold
+ap_exploit_method_threshold = 5
+
+# Define the WiFi access point exploit headers threshold
+ap_exploit_headers_threshold = 5
+
+# Define the WiFi access point exploit body threshold
+ap_exploit_body_threshold = 5
+
+# Define the WiFi access point exploit response threshold
+ap_exploit_response_threshold = 5
+
+# Define the WiFi access point exploit success message threshold
+ap_exploit_success_message_threshold = 5
+
+# Define the WiFi access point exploit failure message threshold
+ap_exploit_failure_message_threshold = 5
+
+# Define the WiFi access point exploit success rate threshold
+ap_exploit_success_rate_threshold = 0.7
+
+# Define the WiFi access point exploit timeout threshold
+ap_exploit_timeout_threshold = 10
+
+# Define the WiFi access point exploit payload threshold
+ap_exploit_payload_threshold = 100
+
+# Define the WiFi access point exploit method threshold
+ap_exploit_method_threshold = 5
+
+# Define the WiFi access point exploit headers threshold
+ap_exploit_headers_threshold = 5
+
+# Define the WiFi access point exploit body threshold
+ap_exploit_body_threshold = 5
+
+# Define the WiFi access point exploit response threshold
+ap_exploit_response_threshold = 5
+
+# Define the WiFi access point exploit success message threshold
+ap_exploit_success_message_threshold = 5
+
+# Define the WiFi access point exploit failure message threshold
+ap_exploit_failure_message_threshold = 5
